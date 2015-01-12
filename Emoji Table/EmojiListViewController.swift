@@ -36,13 +36,35 @@ class EmojiListViewController: UIViewController, UITableViewDataSource, UITableV
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return emojis.count
+        //This will ensure that there is always a full screen of colored rows
+        if emojis.count < 10 {
+            return 10
+        }
+        else{
+            return emojis.count
+        }
+        
+        //return emojis.count
         
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = UITableViewCell()
-        cell.textLabel.text = self.emojis[indexPath.row]
+        
+        
+        cell.textLabel?.text = self.emojis[indexPath.row]
+        
+        
+   
+        
+        if indexPath.row % 2 == 0 {
+            cell.backgroundColor = UIColor.redColor()
+        }
+        else{
+            cell.backgroundColor = UIColor.orangeColor()
+        }
+
+        
         return cell
     }
     
