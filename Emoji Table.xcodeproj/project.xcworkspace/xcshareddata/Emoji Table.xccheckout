@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0D9E5FE0-942C-47C5-B5E6-9CB3908CA829</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Emoji Table</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>62CDEF071197B8290A225CF32CB9B01AFAA83CD8</key>
+		<string>https://github.com/mgcox/EmojiTable.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Emoji Table.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>62CDEF071197B8290A225CF32CB9B01AFAA83CD8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mgcox/EmojiTable.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>62CDEF071197B8290A225CF32CB9B01AFAA83CD8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>62CDEF071197B8290A225CF32CB9B01AFAA83CD8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EmojiTable</string>
+		</dict>
+	</array>
+</dict>
+</plist>
